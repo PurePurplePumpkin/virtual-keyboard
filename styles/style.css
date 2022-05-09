@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #E3FBFF;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+}
+
+.area {
+  font-family: 'Merriweather';
+  width: 760px;
+  height: 200px;
+  margin: 100px auto 0;
+}
+
+.keyboard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+  width: 740px;
+  height: 240px;
+  background-color: #8FAFB4;
+  margin: 0 auto;
+  border-radius: 5px;
+  color: white;
+}
+
+.keys {
+  font-family: 'Macondo';
+  height: 30px;
+  border-radius: 3px;
+  vertical-align: middle;
+  padding-top: 10px;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: border-radius 0.2s, background-color 0.2s;
+  transition: border-radius 0.2s, background-color 0.2s;
+}
+
+.keys:hover {
+  background-color: #95D3DD;
+  color: black;
+}
+
+.keys-letter {
+  width: 40px;
+  background-color: #4C6568;
+}
+
+.keys-func {
+  width: 40px;
+  background-color: #3E4C4E;
+}
+
+.keys-space {
+  width: 340px;
+  background-color: #4C6568;
+}
+
+.keys-long {
+  width: 90px;
+  background-color: #3E4C4E;
+}
+
+.click {
+  background-color: #01DDFF;
+  border-radius: 100px;
+  color: black;
+}
+
+.click:hover {
+  background-color: #01DDFF;
+}
+/*# sourceMappingURL=style.css.map */
